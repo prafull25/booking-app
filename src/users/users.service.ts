@@ -5,7 +5,7 @@ import { Repository } from "typeorm";
 import { SignupDto } from "./dto";
 import { UsersEntity } from "./users.entity";
 let plivo = require('plivo');
-let client = new plivo.Client('MAOGFIZWM4OWVIODIYYJ', 'YWVlM2FlNmU4Y2QwNWY2MzllMjM5YmY0N2U1ZTZm');
+let client = new plivo.Client('your credentials ');
 @Injectable()
 export class usersService{
     constructor(
